@@ -20,6 +20,22 @@
             </next>
           </block>
         </statement>
+        <next>
+          <block type="controls_if" id="278" inline="false">
+            <value name="IF0">
+              <block type="sensor_object" id="308">
+                <field name="OBJECT">RIGHTFRONT</field>
+              </block>
+            </value>
+            <statement name="DO0">
+              <block type="movement_left" id="332">
+                <next>
+                  <block type="movement_forward" id="343"></block>
+                </next>
+              </block>
+            </statement>
+          </block>
+        </next>
       </block>
     </statement>
   </block>
